@@ -1,6 +1,5 @@
 import random
 print('=' * 25, 'OLÁ, SEJA BEM VINDO(A) AO JOGO DA FORCA 🎮', '=' * 25)
-import random
 print('''
     BEM VINDO (A) AO JOGO DA FORCA !
     O objetivo deste jogo é descobrir uma palavra adivinhando as letras que ela possui. 
