@@ -92,7 +92,8 @@ while reiniciar_jogo:
     usuario = input("Deseja jogar novamente? Digite N ou S:")
     if usuario != 's' and usuario != 'n':
         print('Tecle s ou n.')
-        usuario = input("Deseja jogar novamente? Digite N ou S:")
+    if usuario == 's':
+            usuario = input("Deseja jogar novamente? Digite N ou S:")
     elif usuario.lower() == "n":
         reiniciar_jogo = False
 
